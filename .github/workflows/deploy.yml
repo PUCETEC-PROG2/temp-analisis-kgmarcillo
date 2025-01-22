@@ -24,6 +24,6 @@ jobs:
       - name: Subelo a Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with: 
-          github_token: ${(secrets.GITHUN_TOKEN)}
+          github_token: ${{secrets.GITHUN_TOKEN}}
           publish_dir: ./
           allow_empty_commit: true
